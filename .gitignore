@@ -4,6 +4,7 @@
 /node_modules
 /.pnp
 .pnp.js
+.yarn/install-state.gz
 
 # testing
 /coverage
@@ -23,18 +24,16 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-.pnpm-debug.log*
 
 # local env files
-.env*
-!.env.example
+.env*.local
 
 # vercel
 .vercel
 
-# stackbit
-.cache
-.stackbit/cache
+# typescript
+*.tsbuildinfo
 
-# Local Netlify folder
-.netlify
+=======
+next-env.d.ts
+>>>>>>> 7e3bd74b2008dd1b99b63bfc89aa760e2d223129

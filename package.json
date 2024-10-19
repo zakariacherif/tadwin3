@@ -1,29 +1,59 @@
 {
-    "name": "next-netlify-platform-starter",
-    "version": "0.1.0",
-    "private": true,
-    "scripts": {
-        "dev": "next dev",
-        "build": "next build",
-        "start": "next start",
-        "lint": "next lint"
-    },
-    "dependencies": {
-        "@netlify/blobs": "^8.1.0",
-        "blobshape": "^1.0.0",
-        "bright": "^0.8.5",
-        "markdown-to-jsx": "^7.4.5",
-        "next": "14.2.15",
-        "react": "18.3.1",
-        "react-dom": "18.3.1",
-        "unique-names-generator": "^4.7.1"
-    },
-    "devDependencies": {
-        "autoprefixer": "^10.4.18",
-        "daisyui": "^4.12.8",
-        "eslint": "8.57.1",
-        "eslint-config-next": "14.2.15",
-        "postcss": "^8.4.36",
-        "tailwindcss": "^3.4.1"
-    }
+  "name": "notion",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@blocknote/core": "^0.16.0",
+    "@blocknote/mantine": "^0.16.0",
+    "@blocknote/react": "^0.16.0",
+    "@blocknote/shadcn": "^0.16.0",
+    "@clerk/nextjs": "^5.7.2",
+    "@google-cloud/firestore": "^7.10.0",
+    "@liveblocks/client": "^2.9.1",
+    "@liveblocks/node": "^2.9.1",
+    "@liveblocks/react": "^2.9.1",
+    "@liveblocks/yjs": "^2.9.1",
+    "@next/font": "^14.2.15",
+    "@opentelemetry/api": "^1.9.0",
+    "@radix-ui/react-avatar": "^1.1.1",
+    "@radix-ui/react-dialog": "^1.1.2",
+    "@radix-ui/react-icons": "^1.3.0",
+    "@radix-ui/react-select": "^2.1.2",
+    "@radix-ui/react-slot": "^1.1.0",
+    "@radix-ui/react-tooltip": "^1.1.3",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "firebase": "^10.14.0",
+    "firebase-admin": "^12.6.0",
+    "framer-motion": "^11.11.7",
+    "git": "^0.1.5",
+    "i18next": "^23.16.0",
+    "lucide-react": "^0.451.0",
+    "next": "14.2.15",
+    "next-themes": "^0.3.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-firebase-hooks": "^5.1.1",
+    "react-i18next": "^15.0.3",
+    "sonner": "^1.5.0",
+    "tailwind-merge": "^2.5.3",
+    "tailwindcss-animate": "^1.0.7",
+    "yjs": "^13.6.19"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.15",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
 }
